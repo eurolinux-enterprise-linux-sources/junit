@@ -30,7 +30,7 @@
 
 Name:           junit
 Version:        4.11
-Release:        7%{?dist}
+Release:        8%{?dist}
 Epoch:          0
 Summary:        Java regression test package
 License:        CPL
@@ -155,6 +155,9 @@ cp -pr %{name}%{version}/%{name}/* %{buildroot}%{_datadir}/%{name}/demo/%{name}
 %doc junit%{version}/doc/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 04.11-8
+- Mass rebuild 2013-12-27
+
 * Fri Aug 23 2013 Michal Srb <msrb@redhat.com> - 0:4.11-7
 - Drop "-SNAPSHOT" from version ID
 - See: https://lists.fedoraproject.org/pipermail/java-devel/2013-August/004923.html
